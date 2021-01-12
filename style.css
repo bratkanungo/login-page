@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Varta', sans-serif;
+}
+body{
+	height: 100vh;
+	background: linear-gradient(to right, #134e5e, #71b280);
+}
+.card{
+	border: none;
+	border-radius: 10px;
+	border-top: 8px solid white;
+	background: #8FBC8F;
+}
+.card:hover{
+	background: linear-gradient(to right, #e96443, #904e95);
+}
+.main_div{
+	height: 100vh;
+}
+p{
+	font-size: 20px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+.fa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: auto;
+    width: auto;
+	border:none; 
+	transition: all 0.2s linear;
+}
+.fa-facebook{
+ color: #1775F1
+}
+.fa-twitter{
+ color: #56ABEC
+}
+.fa-instagram{
+ color: red
+}
+.division{
+	width: 100%;
+	text-align: center;
+	margin: 30px auto 20px;
+}
+.division span{
+	font-weight: bold;
+	font-size: 25px;
+}
+.myform{
+	padding: 0 25px 0 35px;
+}
+.form-control{
+    border-radius: 2px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+.form-control:focus{
+	color: #483D8B;
+}
+.bn{
+	text-decoration: underline;
+}
+.bn:hover{
+	cursor: pointer;
+}
+.btn-primary{
+  background: #000000;
+  border: none;
+  border-radius: 50px;
+}
+.register{
+	color: #000000;
+	text-decoration: none;
+}
+.register:hover{
+	color: black;
+	text-decoration: none;
+}
+img.one{
+	height: 150px;
+	width: 150px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
